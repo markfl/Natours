@@ -34,13 +34,8 @@
 
     }
 
-    &__list {
-        list-style: none;
-    }
-
     &__item {
         display: inline-block;
-
         &:not(:last-child) {
             margin-right: 1.5rem;
         }
@@ -78,4 +73,16 @@
         }
 
     }
+
+    &__aws {
+		height: 3rem;
+		shape-outside: circle(50% at 50% 50%);
+		clip-path: circle(50% at 50% 50%);
+		flex: 0 0 25%;
+	}
+}
+
+ul {
+    list-style: none;
+    list-style-type: none;
 }
