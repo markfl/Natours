@@ -1017,7 +1017,7 @@ body {
     width: 33.333333%;
     display: table-cell; }
   .popup__right {
-    width: 66.6666667%;
+    width: 66.666667%;
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem; }
@@ -1055,6 +1055,11 @@ body {
     line-height: 1; }
   .popup__close:hover {
     color: #7ed56f; }
+  .popup__close--outer {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: default; }
 
 .story {
   width: 75%;
@@ -1390,7 +1395,7 @@ ul {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4-small.jpg);
+  background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -11rem; }
